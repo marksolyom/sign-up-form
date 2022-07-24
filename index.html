@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="logo-area">
+        <img src="img/logo.png" class="logo" alt="tree logo">
+        <div class="logo-title">Sign-Up</div>
+    </div>
+
+    <div class="container">
+        <div class="introduction">
+            <P>This is not a real online service!</P>
+            <p>Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+        <div class="form">
+            <p>Let's do this!</p>
+            <form id="my-form" action="#">
+
+                <label for="firstName">First Name
+                    <input type="text" name="firstName" id="firstName" placeholder="John">
+                </label>
+
+                <label for="lastName">Last Name
+                    <input type="text" name="lastName" id="lastName" placeholder="Doe">
+                </label>
+
+                <label for="email">Email
+                    <input type="email" name="email" id="email" placeholder="johndoe@gmail.com">
+                </label>
+
+                <label for="phone">Phone Number
+                    <input type="tel" name="phone" id="phone" placeholder="+36501231234">
+                </label>
+
+                <label for="password">Password
+                    <input type="password" name="password" id="password">
+                </label>
+
+                <label for="confirm-password">Confirm Password
+                    <input type="password" name="confirm-password" id="confirm-password">
+                </label>
+
+            </form>
+        </div>
+        <div class="account">
+            <button type="submit" form="my-form">Create Account</button>
+            <p>Already have an account? <a href="">Log in</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
